@@ -53,10 +53,8 @@ I am a software engineer with a unique background—blending a deep love for **m
   <a href="https://github.com/infinawaz">
     <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=infinawaz&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" />
   </a>
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=infinawaz&theme=transparent&hide_border=true&stroke=2563EB&ring=2563EB&fire=2563EB&currStreakLabel=2563EB" alt="streak graph" />
+  <br />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=infinawaz&theme=tokyonight&hide_border=true&stroke=2563EB&ring=2563EB&fire=2563EB&currStreakLabel=2563EB" alt="streak graph" />
 </div>
 
 <br />
