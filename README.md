@@ -13,9 +13,9 @@
       <img src="https://img.shields.io/badge/Current_Project-Raabta_Chat-blue?style=for-the-badge&logo=socket.io&logoColor=white" />
     </a>
 
-    <a href="mailto:shahanwazdgp07@gmail.com">
-      <img src="https://img.shields.io/badge/Email-Contact_Me-gray?style=for-the-badge&logo=gmail&logoColor=white" />
-    </a>
+  <a href="mailto:shahanwazdgp07@gmail.com">
+    <img src="https://img.shields.io/badge/Email-Contact_Me-gray?style=for-the-badge&logo=gmail&logoColor=white" />
+  </a>
   </p>
 </div>
 
