@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="banner_v2.png" alt="Banner" width="100%" />
+
 
   <h1 align="center">Hi, I'm Md Shahnawaz 👋</h1>
   <h3 align="center">Building Logic Into Beauty</h3>
