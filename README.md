@@ -48,10 +48,10 @@ I am a software engineer with a unique background—blending a deep love for **m
 
 <div align="center">
   <a href="https://github.com/infinawaz">
-    <img src="https://github-readme-stats.vercel.app/api?username=infinawaz&show_icons=true&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569&icon_color=2563EB&bg_color=ffffff" height="150" alt="stats graph" />
+    <img src="https://github-readme-stats.vercel.app/api?username=infinawaz&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" />
   </a>
   <a href="https://github.com/infinawaz">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=infinawaz&layout=compact&theme=transparent&hide_border=true&title_color=2563EB&text_color=475569" height="150" alt="languages graph" />
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=infinawaz&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" />
   </a>
 </div>
 
