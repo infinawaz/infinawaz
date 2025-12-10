@@ -75,5 +75,5 @@ I am a software engineer with a unique background—blending a deep love for **m
     <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
   <br />
-  <p>© 2024 Md Shahnawaz Alam Khan</p>
+  <p>© 2025 Md Shahnawaz Alam Khan</p>
 </div>
