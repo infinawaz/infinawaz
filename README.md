@@ -1,78 +1,68 @@
-# Shahnawaz API Reference
+# MDSHAHNAWAZ(1) - General Commands Manual
 
-**Base URL**: `https://github.com/infinawaz`  
-**Version**: `v3.1.0`  
-**Status**: ![System Status](https://img.shields.io/badge/System_Status-Operational-success?style=flat-square)
+## NAME
+**mdshahnawaz** - software engineer building logic into beauty
 
----
+## SYNOPSIS
+**mdshahnawaz** [*--fullstack*] [*--python*] [*--math*]  
+**mdshahnawaz** *command* [*args*]
 
-## `GET /about`
+## DESCRIPTION
+**mdshahnawaz** is a highly optimized software utility with a kernel based in **Mathematics** and **Computer Science**. The program is designed to solve complex variable equations through logical and efficient code execution. It accepts various system inputs and outputs scalable, robust solutions.
 
-Returns current developer profile and mathematical background info.
+Current process modifiers include active development on real-time communication architectures and asynchronous high-throughput APIs.
 
-**Response** `200 OK`
+## OPTIONS
+The following flags (skills) are supported by the current version:
 
-```json
-{
-  "name": "Md Shahnawaz",
-  "title": "Software Engineer",
-  "background": ["Mathematics", "Computer Science"],
-  "mission": "Building logical beauty through code optimization.",
-  "status": "Solving variable equations"
-}
-```
+**--python**
+    High proficiency in Python scripting, FastAPI development, and system automation.
 
----
+**--javascript, --typescript**
+    Capable of rendering complex frontends (React) and robust backends (Node.js).
 
-## `GET /skills`
+**--infrastructure**
+    Native compatibility with Docker, Git, Linux environments, and SQL databases.
 
-Returns a list of technical capabilities and active stacks.
+## COMMANDS (PROJECTS)
+The following executables are installed in the public path:
 
-**Response** `200 OK`
+**socketio-multiroom-chat(1)**
+    [Source Code](https://github.com/infinawaz/socketio-multiroom-chat)  
+    Real-time messaging architecture supporting dynamic room allocation and persistence.  
+    *Dependencies: Node.js, Socket.io, SQLite*
 
-```json
-{
-  "languages": ["Python", "JavaScript", "TypeScript", "SQL"],
-  "frameworks": ["React", "Node.js", "FastAPI", "Express"],
-  "infrastructure": ["Docker", "Git", "Linux", "SQLite"],
-  "concepts": ["Abstract Algebra", "System Design", "Algorithms"]
-}
-```
+**async-meteo(1)**
+    [Source Code](https://github.com/infinawaz/AsyncMeteo)  
+    Asynchronous high-throughput weather forecasting interface.  
+    *Dependencies: FastAPI, Python, AsyncIO*
 
----
+**sorting-visualizer(1)**
+    [Source Code](https://github.com/infinawaz/ultimate-sorting-visualizer)  
+    Frontend visualization engine for complex sorting algorithms.  
+    *Dependencies: React, TypeScript, Algorithms*
 
-## `GET /projects`
+**salon-city(1)**
+    [Source Code](https://github.com/infinawaz/hair_salon)  
+    Enterprise-grade management system for beauty service providers.  
+    *Dependencies: Full Stack, MVC*
 
-Retrieves the list of deployed services and open source contributions.
+**errfriendly(1)**
+    [Source Code](https://github.com/infinawaz/errfriendly)  
+    Human-readable exception handling interface for developer productivity.  
+    *Dependencies: Python, PyPI*
 
-**Response** `200 OK`
+## AUTHOR
+Written and maintained by **Md Shahnawaz**.
 
-| Resource | Method | Description | Stack |
-| :--- | :--- | :--- | :--- |
-| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | `GET` | Real-time chat architecture. | `Node.js` `Socket.io` |
-| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `GET` | Asynchronous weather API. | `FastAPI` `Python` |
-| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `GET` | Frontend algorithm engine. | `React` `TS` |
-| **[Salon City](https://github.com/infinawaz/hair_salon)** | `GET` | Salon management system. | `Full Stack` `MVC` |
-| **[Errfriendly](https://github.com/infinawaz/errfriendly)** | `GET` | Human-readable exception interface. | `Python` `PyPI` |
+## REPORTING BUGS
+Report bugs to <[shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)>.  
+Connect on LinkedIn: <[linkedin.com/in/md-shahnawaz-alam-khan](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)>
 
----
+## COPYRIGHT
+Copyright © 2024 Md Shahnawaz.  
+This is free software: you are free to change and redistribute it.  
+There is NO WARRANTY, to the extent permitted by law.
 
-## `POST /contact`
-
-Initiates a communication channel.
-
-**Parameters**
-
-| Name | Type | Description |
-| :--- | :--- | :--- |
-| **email** | `string` | [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com) |
-| **linkedin** | `url` | [Connect Profile](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/) |
-| **github** | `url` | [Source Code](https://github.com/infinawaz) |
-
-**Response** `201 Created`
-
-```json
-{
-  "message": "Connection established successfully."
-}
-```
+## SEE ALSO
+**github**(1)
