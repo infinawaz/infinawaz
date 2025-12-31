@@ -1,43 +1,53 @@
-# Md Shahnawaz
 
-**Software Engineer**  
-*Building logic into beauty.*
+```bash
+> shahnawaz --version
+```
+**v2.0.0 (Software Engineer)**
 
----
+```bash
+> cat about.txt
+```
+> I am a software engineer who treats code optimization like **solving a variable equation**.
+> My background in **Applied Mathematics** drives me to build logic into beauty.
+>
+> Currently working on: **Real-time Communication Architectures**
 
-### About
+```bash
+> ls -la skills/
+```
+| Permission | Type | Name |
+| :--- | :--- | :--- |
+| `rwxr-xr-x` | **Lang** | `Python`, `TypeScript`, `JavaScript`, `SQL` |
+| `rwxr-xr-x` | **Stack** | `React`, `Node.js`, `FastAPI`, `Next.js` |
+| `rwxr-xr-x` | **Infra** | `Docker`, `Git`, `Linux`, `SQLite` |
 
-I am a software engineer with a background in mathematics. My approach to engineering is grounded in logic, efficiency, and precision. I treat code optimization like solving a variable equation—finding the most elegant solution to complex problems.
+```bash
+> ./show_projects.sh --featured
+```
 
-Currently, I'm:
-- Building **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** — A real-time communication platform.
-- Exploring **Abstract Algebra** and its applications in **Computer Science**.
+- **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)**
+  > `Node.js` `Socket.io`
+  > *Real-time chat with dynamic rooms and persistence.*
 
-### Technical Arsenal
+- **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)**
+  > `FastAPI` `AsyncIO`
+  > *High-performance asynchronous weather forecasting API.*
 
-**Languages**  
-Python, JavaScript, TypeScript, SQL
+- **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)**
+  > `React` `Algorithms`
+  > *Bridging abstract math with interactive frontend visualization.*
 
-**Full Stack**  
-React, Node.js, Express, FastAPI, HTML5, CSS3
+- **[Salon City](https://github.com/infinawaz/hair_salon)**
+  > `Full Stack`
+  > *Complete salon management system with billing & queues.*
 
-**Tools & Infrastructure**  
-Docker, Git, Linux, SQLite, Postman
+```bash
+> ping -c 1 social.network
+```
+- **Email**: [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)
+- **LinkedIn**: [Md Shahnawaz Alam Khan](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)
+- **GitHub**: [infinawaz](https://github.com/infinawaz)
 
-### Featured Projects
-
-- **[AscyncMeteo](https://github.com/infinawaz/AsyncMeteo)**  
-  High-performance asynchronous weather forecasting API built with FastAPI and Python.
-
-- **[SocketIO Multiroom Chat](https://github.com/infinawaz/socketio-multiroom-chat)**  
-  Real-time chat architecture supporting dynamic rooms, private messaging, and persistence using Node.js and SQLite.
-
-- **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)**  
-  Interactive platform visualizing 30+ sorting algorithms, bridging algorithm study with React & TypeScript frontend.
-
-- **[Salon City](https://github.com/infinawaz/hair_salon)**  
-  A comprehensive management system for beauty salons, featuring billing, inventory, and queue management.
-
----
-
-[Email](mailto:shahanwazdgp07@gmail.com) • [LinkedIn](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/) • [GitHub](https://github.com/infinawaz)
+```bash
+> exit
+```
