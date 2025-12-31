@@ -1,53 +1,58 @@
+# System Architecture: Md Shahnawaz
 
-```bash
-> shahnawaz --version
-```
-**v2.0.0 (Software Engineer)**
+[![System Status](https://img.shields.io/badge/System_Status-Operational-success?style=flat-square)](https://github.com/infinawaz)
 
-```bash
-> cat about.txt
-```
-> I am a software engineer who treats code optimization like **solving a variable equation**.
-> My background in **Applied Mathematics** drives me to build logic into beauty.
->
-> Currently working on: **Real-time Communication Architectures**
+```mermaid
+graph TD
+    %% Nodes
+    User(Md Shahnawaz)
+    
+    subgraph Core_Processor [Core Processor]
+        SWE[Software Engineer]
+        Math[Mathematician]
+    end
+    
+    subgraph Tech_Stack [Tech Stack]
+        Lang[Python / JS / TS]
+        Frame[React / Node / FastAPI]
+        Infra[Docker / Git / Linux]
+    end
+    
+    subgraph Output_Services [Deployed Services]
+        P1[Multiroom Chat]
+        P2[AsyncMeteo API]
+        P3[Sorting Visualizer]
+        P4[Salon Manager]
+    end
 
-```bash
-> ls -la skills/
+    %% Edges
+    User -->|Identity| Core_Processor
+    SWE -->|Implements| Tech_Stack
+    Math -->|Optimizes| Tech_Stack
+    
+    Tech_Stack -->|Builds| Output_Services
+    
+    %% Styling
+    style User fill:#2d333b,stroke:#adbac7,stroke-width:2px,color:#adbac7
+    style Core_Processor fill:#22272e,stroke:#444c56,color:#adbac7
+    style Tech_Stack fill:#22272e,stroke:#444c56,color:#adbac7
+    style Output_Services fill:#22272e,stroke:#444c56,color:#adbac7
 ```
-| Permission | Type | Name |
+
+## 🟢 Deployed Services
+
+| Service ID | Tech Specification | Description |
 | :--- | :--- | :--- |
-| `rwxr-xr-x` | **Lang** | `Python`, `TypeScript`, `JavaScript`, `SQL` |
-| `rwxr-xr-x` | **Stack** | `React`, `Node.js`, `FastAPI`, `Next.js` |
-| `rwxr-xr-x` | **Infra** | `Docker`, `Git`, `Linux`, `SQLite` |
+| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | `Node.js` `Socket.io` | Real-time messaging architecture with dynamic room allocation. |
+| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `FastAPI` `Python` | Asynchronous high-throughput weather forecasting interface. |
+| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `React` `Algorithms` | Frontend visualization engine for complex sorting algorithms. |
+| **[Salon City](https://github.com/infinawaz/hair_salon)** | `Full Stack` `MVC` | Enterprise-grade management system for beauty service providers. |
 
-```bash
-> ./show_projects.sh --featured
-```
+## 📡 Communication Uplink
 
-- **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)**
-  > `Node.js` `Socket.io`
-  > *Real-time chat with dynamic rooms and persistence.*
+- **Direct Line**: [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)
+- **Network**: [LinkedIn Profile](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)
+- **Source**: [GitHub Profile](https://github.com/infinawaz)
 
-- **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)**
-  > `FastAPI` `AsyncIO`
-  > *High-performance asynchronous weather forecasting API.*
-
-- **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)**
-  > `React` `Algorithms`
-  > *Bridging abstract math with interactive frontend visualization.*
-
-- **[Salon City](https://github.com/infinawaz/hair_salon)**
-  > `Full Stack`
-  > *Complete salon management system with billing & queues.*
-
-```bash
-> ping -c 1 social.network
-```
-- **Email**: [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)
-- **LinkedIn**: [Md Shahnawaz Alam Khan](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)
-- **GitHub**: [infinawaz](https://github.com/infinawaz)
-
-```bash
-> exit
-```
+---
+*System Monitor v3.0 // End of Log*
