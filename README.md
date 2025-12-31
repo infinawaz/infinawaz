@@ -23,6 +23,7 @@ graph TD
         P2[AsyncMeteo API]
         P3[Sorting Visualizer]
         P4[Salon Manager]
+        P5[Errfriendly Package]
     end
 
     %% Edges
@@ -47,6 +48,7 @@ graph TD
 | **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `FastAPI` `Python` | Asynchronous high-throughput weather forecasting interface. |
 | **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `React` `Algorithms` | Frontend visualization engine for complex sorting algorithms. |
 | **[Salon City](https://github.com/infinawaz/hair_salon)** | `Full Stack` `MVC` | Enterprise-grade management system for beauty service providers. |
+| **[Errfriendly](https://github.com/infinawaz/errfriendly)** | `Python` `PyPI` | Human-readable exception handling interface for developer productivity. |
 
 ## 📡 Communication Uplink
 
