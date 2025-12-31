@@ -1,79 +1,43 @@
-<div align="center">
+# Md Shahnawaz
 
+**Software Engineer • Mathematician**  
+*Building logic into beauty.*
 
-  <h1 align="center">Hi, I'm Md Shahnawaz 👋</h1>
-  <h3 align="center">Building Logic Into Beauty</h3>
+---
 
-  <p align="center">
-    <b>Software Engineer</b> • <b>Mathematician</b> • <b>Full Stack Developer</b>
-  </p>
+### About
 
-  <p align="center">
-    <a href="https://github.com/infinawaz/socketio-multiroom-chat">
-      <img src="https://img.shields.io/badge/Current_Project-Raabta_Chat-blue?style=for-the-badge&logo=socket.io&logoColor=white" />
-    </a>
+I am a software engineer with a background in mathematics. My approach to engineering is grounded in logic, efficiency, and precision. I treat code optimization like solving a variable equation—finding the most elegant solution to complex problems.
 
-  <a href="mailto:shahanwazdgp07@gmail.com">
-    <img src="https://img.shields.io/badge/Email-Contact_Me-gray?style=for-the-badge&logo=gmail&logoColor=white" />
-  </a>
-  </p>
-</div>
+Currently, I'm:
+- Building **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** — A real-time communication platform.
+- Exploring **Abstract Algebra** and its applications in **Computer Science**.
 
-<br />
+### Technical Arsenal
 
-### 👨‍💻 About Me
+**Languages**  
+Python, JavaScript, TypeScript, SQL
 
-I am a software engineer with a unique background—blending a deep love for **mathematics** with modern **computer science**. My code is an extension of mathematical thought, prioritizing logic, efficiency, and precision.
+**Full Stack**  
+React, Node.js, Express, FastAPI, HTML5, CSS3
 
-- 🔭 I’m currently working on **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** (Real-time communication platform)
-- 👯 I’m looking to collaborate on **Open Source Math-Visualizers**
-- 💬 Ask me about **React, Node.js, and Abstract Algebra**
-- ⚡ Fun fact: **I see code optimization as solving a variable equation.**
+**Tools & Infrastructure**  
+Docker, Git, Linux, SQLite, Postman
 
-<br />
+### Featured Projects
 
-### 🚀 Technical Arsenal
+- **[AscyncMeteo](https://github.com/infinawaz/AsyncMeteo)**  
+  High-performance asynchronous weather forecasting API built with FastAPI and Python.
 
-<div align="center">
-  <img src="https://skillicons.dev/icons?i=react,ts,js,html,css,tailwind,threejs,framer" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=nodejs,express,python,fastapi,sqlite,postman" />
-  <br />
-  <img src="https://skillicons.dev/icons?i=git,github,docker,vite,vscode,linux" />
-</div>
+- **[SocketIO Multiroom Chat](https://github.com/infinawaz/socketio-multiroom-chat)**  
+  Real-time chat architecture supporting dynamic rooms, private messaging, and persistence using Node.js and SQLite.
 
-<br />
+- **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)**  
+  Interactive platform visualizing 30+ sorting algorithms, bridging algorithm study with React & TypeScript frontend.
 
-### 📊 GitHub Analytics
+- **[Salon City](https://github.com/infinawaz/hair_salon)**  
+  A comprehensive management system for beauty salons, featuring billing, inventory, and queue management.
 
-<div align="center">
-  <a href="https://github.com/infinawaz">
-    <img src="https://infinawaz-stats.onrender.com/api?username=infinawaz&show_icons=true&theme=tokyonight&hide_border=true" height="150" alt="stats graph" />
-  </a>
-  <a href="https://github.com/infinawaz">
-    <img src="https://infinawaz-stats.onrender.com/api/top-langs?username=infinawaz&layout=compact&theme=tokyonight&hide_border=true" height="150" alt="languages graph" />
-  </a>
-  <br />
-  <img src="https://streak-stats.demolab.com/?user=infinawaz&theme=tokyonight&hide_border=true&stroke=2563EB&ring=2563EB&fire=2563EB&currStreakLabel=2563EB" alt="streak graph" />
-</div>
+---
 
-<br />
-
-### 🏆 Featured Projects
-
-| Project | Description | Tech Stack |
-| :--- | :--- | :--- |
-| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | 🚀 Real-time chat with dynamic rooms, private messaging, and persistence. | `Node.js` `Socket.io` `SQLite` |
-| **[Salon City](https://github.com/infinawaz/hair_salon)** | ✂️ Comprehensive salon management system with billing and inventory. | `JavaScript` `HTML5` `CSS3` |
-| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | 🔢 Interactive study platform visualizing 30+ sorting algorithms. | `React` `TypeScript` `Algorithms` |
-| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | ⚡ High-performance asynchronous weather forecasting API. | `FastAPI` `Python` `AsyncIO` |
-
-<br />
-
-<div align="center">
-  <a href="https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-blue?style=for-the-badge&logo=linkedin&logoColor=white" />
-  </a>
-  <br />
-  <p>© 2025 Md Shahnawaz Alam Khan</p>
-</div>
+[Email](mailto:shahanwazdgp07@gmail.com) • [LinkedIn](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/) • [GitHub](https://github.com/infinawaz)
