@@ -1,60 +1,78 @@
-# System Architecture: Md Shahnawaz
+# Shahnawaz API Reference
 
-[![System Status](https://img.shields.io/badge/System_Status-Operational-success?style=flat-square)](https://github.com/infinawaz)
-
-```mermaid
-graph TD
-    %% Nodes
-    User(Md Shahnawaz)
-    
-    subgraph Core_Processor [Core Processor]
-        SWE[Software Engineer]
-        Math[Mathematician]
-    end
-    
-    subgraph Tech_Stack [Tech Stack]
-        Lang[Python / JS / TS]
-        Frame[React / Node / FastAPI]
-        Infra[Docker / Git / Linux]
-    end
-    
-    subgraph Output_Services [Deployed Services]
-        P1[Multiroom Chat]
-        P2[AsyncMeteo API]
-        P3[Sorting Visualizer]
-        P4[Salon Manager]
-        P5[Errfriendly Package]
-    end
-
-    %% Edges
-    User -->|Identity| Core_Processor
-    SWE -->|Implements| Tech_Stack
-    Math -->|Optimizes| Tech_Stack
-    
-    Tech_Stack -->|Builds| Output_Services
-    
-    %% Styling
-    style User fill:#2d333b,stroke:#adbac7,stroke-width:2px,color:#adbac7
-    style Core_Processor fill:#22272e,stroke:#444c56,color:#adbac7
-    style Tech_Stack fill:#22272e,stroke:#444c56,color:#adbac7
-    style Output_Services fill:#22272e,stroke:#444c56,color:#adbac7
-```
-
-## 🟢 Deployed Services
-
-| Service ID | Tech Specification | Description |
-| :--- | :--- | :--- |
-| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | `Node.js` `Socket.io` | Real-time messaging architecture with dynamic room allocation. |
-| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `FastAPI` `Python` | Asynchronous high-throughput weather forecasting interface. |
-| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `React` `Algorithms` | Frontend visualization engine for complex sorting algorithms. |
-| **[Salon City](https://github.com/infinawaz/hair_salon)** | `Full Stack` `MVC` | Enterprise-grade management system for beauty service providers. |
-| **[Errfriendly](https://github.com/infinawaz/errfriendly)** | `Python` `PyPI` | Human-readable exception handling interface for developer productivity. |
-
-## 📡 Communication Uplink
-
-- **Direct Line**: [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)
-- **Network**: [LinkedIn Profile](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)
-- **Source**: [GitHub Profile](https://github.com/infinawaz)
+**Base URL**: `https://github.com/infinawaz`  
+**Version**: `v3.1.0`  
+**Status**: ![System Status](https://img.shields.io/badge/System_Status-Operational-success?style=flat-square)
 
 ---
-*System Monitor v3.0 // End of Log*
+
+## `GET /about`
+
+Returns current developer profile and mathematical background info.
+
+**Response** `200 OK`
+
+```json
+{
+  "name": "Md Shahnawaz",
+  "title": "Software Engineer",
+  "background": ["Mathematics", "Computer Science"],
+  "mission": "Building logical beauty through code optimization.",
+  "status": "Solving variable equations"
+}
+```
+
+---
+
+## `GET /skills`
+
+Returns a list of technical capabilities and active stacks.
+
+**Response** `200 OK`
+
+```json
+{
+  "languages": ["Python", "JavaScript", "TypeScript", "SQL"],
+  "frameworks": ["React", "Node.js", "FastAPI", "Express"],
+  "infrastructure": ["Docker", "Git", "Linux", "SQLite"],
+  "concepts": ["Abstract Algebra", "System Design", "Algorithms"]
+}
+```
+
+---
+
+## `GET /projects`
+
+Retrieves the list of deployed services and open source contributions.
+
+**Response** `200 OK`
+
+| Resource | Method | Description | Stack |
+| :--- | :--- | :--- | :--- |
+| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | `GET` | Real-time chat architecture. | `Node.js` `Socket.io` |
+| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `GET` | Asynchronous weather API. | `FastAPI` `Python` |
+| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `GET` | Frontend algorithm engine. | `React` `TS` |
+| **[Salon City](https://github.com/infinawaz/hair_salon)** | `GET` | Salon management system. | `Full Stack` `MVC` |
+| **[Errfriendly](https://github.com/infinawaz/errfriendly)** | `GET` | Human-readable exception interface. | `Python` `PyPI` |
+
+---
+
+## `POST /contact`
+
+Initiates a communication channel.
+
+**Parameters**
+
+| Name | Type | Description |
+| :--- | :--- | :--- |
+| **email** | `string` | [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com) |
+| **linkedin** | `url` | [Connect Profile](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/) |
+| **github** | `url` | [Source Code](https://github.com/infinawaz) |
+
+**Response** `201 Created`
+
+```json
+{
+  "message": "Connection established successfully."
+}
+```
