@@ -1,6 +1,6 @@
 # Md Shahnawaz
 
-**Software Engineer • Mathematician**  
+**Software Engineer**  
 *Building logic into beauty.*
 
 ---
