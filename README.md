@@ -1,68 +1,53 @@
-# MDSHAHNAWAZ(1) - General Commands Manual
+```sql
+> SELECT name, role, background, mission FROM developers 
+  WHERE username = 'infinawaz';
+```
 
-## NAME
-**mdshahnawaz** - software engineer building logic into beauty
+| name | role | background | mission |
+| :--- | :--- | :--- | :--- |
+| **Md Shahnawaz** | Software Engineer | `Mathematics` `CS` | Building logic into beauty through optimization. |
 
-## SYNOPSIS
-**mdshahnawaz** [*--fullstack*] [*--python*] [*--math*]  
-**mdshahnawaz** *command* [*args*]
+<br>
 
-## DESCRIPTION
-**mdshahnawaz** is a highly optimized software utility with a kernel based in **Mathematics** and **Computer Science**. The program is designed to solve complex variable equations through logical and efficient code execution. It accepts various system inputs and outputs scalable, robust solutions.
+```sql
+> SELECT language, frameworks, infrastructure FROM skills;
+```
 
-Current process modifiers include active development on real-time communication architectures and asynchronous high-throughput APIs.
+| language | frameworks | infrastructure |
+| :--- | :--- | :--- |
+| `Python` | `FastAPI` | `Docker` |
+| `TypeScript` | `React` | `Git` |
+| `JavaScript` | `Node.js` | `Linux` |
+| `SQL` | `Express` | `SQLite` |
 
-## OPTIONS
-The following flags (skills) are supported by the current version:
+<br>
 
-**--python**
-    High proficiency in Python scripting, FastAPI development, and system automation.
+```sql
+> SELECT name, stack, description FROM projects 
+  WHERE status = 'Deployed' 
+  ORDER BY impact DESC;
+```
 
-**--javascript, --typescript**
-    Capable of rendering complex frontends (React) and robust backends (Node.js).
+| name | stack | description |
+| :--- | :--- | :--- |
+| **[socketio-multiroom-chat](https://github.com/infinawaz/socketio-multiroom-chat)** | `Node.js` `Socket.io` | Real-time messaging architecture with dynamic room allocation. |
+| **[AsyncMeteo](https://github.com/infinawaz/AsyncMeteo)** | `FastAPI` `Python` | Asynchronous high-throughput weather forecasting API. |
+| **[Ultimate Sorting Visualizer](https://github.com/infinawaz/ultimate-sorting-visualizer)** | `React` `TS` | Frontend visualization engine for complex sorting algorithms. |
+| **[Salon City](https://github.com/infinawaz/hair_salon)** | `Full Stack` `MVC` | Enterprise-grade management system for beauty service providers. |
+| **[Errfriendly](https://github.com/infinawaz/errfriendly)** | `Python` `PyPI` | Human-readable exception handling interface for developers. |
 
-**--infrastructure**
-    Native compatibility with Docker, Git, Linux environments, and SQL databases.
+<br>
 
-## COMMANDS (PROJECTS)
-The following executables are installed in the public path:
+```sql
+> SELECT * FROM contact_channels;
+```
 
-**socketio-multiroom-chat(1)**
-    [Source Code](https://github.com/infinawaz/socketio-multiroom-chat)  
-    Real-time messaging architecture supporting dynamic room allocation and persistence.  
-    *Dependencies: Node.js, Socket.io, SQLite*
+| channel | address | status |
+| :--- | :--- | :--- |
+| **Email** | [shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com) | `CONNECT_OPEN` |
+| **LinkedIn** | [linkedin.com/in/md-shahnawaz-alam-khan](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/) | `CONNECT_OPEN` |
+| **GitHub** | [github.com/infinawaz](https://github.com/infinawaz) | `ACTIVE_SOURCE` |
 
-**async-meteo(1)**
-    [Source Code](https://github.com/infinawaz/AsyncMeteo)  
-    Asynchronous high-throughput weather forecasting interface.  
-    *Dependencies: FastAPI, Python, AsyncIO*
+<br>
 
-**sorting-visualizer(1)**
-    [Source Code](https://github.com/infinawaz/ultimate-sorting-visualizer)  
-    Frontend visualization engine for complex sorting algorithms.  
-    *Dependencies: React, TypeScript, Algorithms*
-
-**salon-city(1)**
-    [Source Code](https://github.com/infinawaz/hair_salon)  
-    Enterprise-grade management system for beauty service providers.  
-    *Dependencies: Full Stack, MVC*
-
-**errfriendly(1)**
-    [Source Code](https://github.com/infinawaz/errfriendly)  
-    Human-readable exception handling interface for developer productivity.  
-    *Dependencies: Python, PyPI*
-
-## AUTHOR
-Written and maintained by **Md Shahnawaz**.
-
-## REPORTING BUGS
-Report bugs to <[shahanwazdgp07@gmail.com](mailto:shahanwazdgp07@gmail.com)>.  
-Connect on LinkedIn: <[linkedin.com/in/md-shahnawaz-alam-khan](https://linkedin.com/in/md-shahnawaz-alam-khan-7b2121179/)>
-
-## COPYRIGHT
-Copyright © 2024 Md Shahnawaz.  
-This is free software: you are free to change and redistribute it.  
-There is NO WARRANTY, to the extent permitted by law.
-
-## SEE ALSO
-**github**(1)
+`4 rows in set (0.01 sec)`
