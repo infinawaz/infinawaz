@@ -39,13 +39,6 @@ Based in India • Open to opportunities • [Email](mailto:shahanwazdgp07@gmail
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=infinawaz&show_icons=true&theme=default&hide_border=true&hide_title=true&count_private=true" height="150" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=infinawaz&layout=compact&hide_border=true&hide_title=true" height="150" />
-</p>
-
----
-
-<p align="center">
   <i>Let's build something great together.</i><br/>
   <a href="mailto:shahanwazdgp07@gmail.com">shahanwazdgp07@gmail.com</a>
 </p>
